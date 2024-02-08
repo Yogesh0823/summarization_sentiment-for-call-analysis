@@ -14,19 +14,29 @@
 # Download Pre-trained fine-tuning on 'facebook/bart-large-xsum' model with BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI dataset.
 1. open terminal where you want to download your model.
 2. paste this in terminal
-3. $git lfs install
-4. $git clone https://huggingface.co/knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI
 
+         $ git lfs install
+         $ git clone https://huggingface.co/knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI
+   
 # Installation
 * open terminal where you want to save this project.
-* $ git clone https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis.git
-* $ cd summarization_sentiment-for-call-analysis
+
+         $ git clone https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis.git
+         $ cd summarization_sentiment-for-call-analysis
+  
 * copy downloaded model folder here.
 * create virtule environment in summarization_sentiment-for-call-analysis
-* $ python3 -m venv 'venv-name'
-* active vnev using $ source/'venv-name'/bin/activate
+
+         $ python3 -m venv 'venv-name'
+* active vnev using
+  
+         $ source/'venv-name'/bin/activate
 * install requirement.txt in venv.
-* for getting output use $ uvicorn main:app --reload
+  
+         $ pip install -r requirement.txt
+* running using fastapi for summary output.
+  
+        $ uvicorn main:app --reload
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/uvicorn-cmd.png)
 
 * after runing this script click on link show in terminal http://127.0.0.1:8000 you get this screen.
