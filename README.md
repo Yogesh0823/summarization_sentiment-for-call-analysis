@@ -22,8 +22,22 @@
 * install requirement.txt in venv.
 * for getting output use $ uvicorn main:app --reload
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/uvicorn-cmd.png)
+
 * after runing this script click on link show in terminal http://127.0.0.1:8000 you get this screen.
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/welcome-msg.png)
+
 * Then add '/docs' in link http://127.0.0.1:8000/docs, then you get this screen.
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-1.png)
-* 
+
+* After this click on post summarization text, you get this screen.
+![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-2-try-it-out.png)
+
+* Then click try it out and you get input text box and click on execute. This is with only empty string and what we get output summary from this model and also sentiment. Note :- You just have to replace "string to your corpus"
+![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-3-empty.png)
+
+* Replace string to some talking corpus and see what summary we get.
+![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-4-final.png)
+"""
+## Model working good and we get perfect abstractive summary with sentiment.
+* In this project i'm using fast api for GUI output. You can use without GUI and get summary in terminal but you have to modify summarization.py file for this.
+"""
