@@ -21,3 +21,9 @@
 * active vnev using $ source/'venv-name'/bin/activate
 * install requirement.txt in venv.
 * for getting output use $ uvicorn main:app --reload
+![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/uvicorn-cmd.png)
+* after runing this script click on link show in terminal http://127.0.0.1:8000 you get this screen.
+![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/welcome-msg.png)
+* Then add '/docs' in link http://127.0.0.1:8000/docs, then you get this screen.
+![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-1.png)
+* 
