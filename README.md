@@ -37,7 +37,6 @@
 
 * Replace string to some talking corpus and see what summary we get.
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-4-final.png)
-"""
+
 ## Model working good and we get perfect abstractive summary with sentiment.
 * In this project i'm using fast api for GUI output. You can use without GUI and get summary in terminal but you have to modify summarization.py file for this.
-"""
