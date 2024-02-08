@@ -50,4 +50,8 @@
 * If your corpus have len more then 1000 or == to 1000 then you can change (increase or decrease) length. for this change "num==500" in def clean function in summarization.py file.
 * Increasing the num gives you short out put decreasing the num gives you long summary output.
 * num=500 is tested and perfect for more then 1000 words of corpus.
-* 
+
+
+
+
+
