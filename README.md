@@ -41,7 +41,7 @@
 * Then click try it out and you get input text box and click on execute. This is with only empty string and what we get output summary from this model and also sentiment. Note :- You just have to replace "string to your corpus"
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-3-empty.png)
 
-* Replace string to some talking corpus and see what summary we get.
+* Replace string to some talking corpus and see what summary we get.You can see summary and sentiment both result in response body of Fastapi.
 ![result](https://github.com/Yogesh0823/summarization_sentiment-for-call-analysis/blob/main/result-image/summ-4-final.png)
 
 ## Model working good and we get perfect abstractive summary with sentiment.
