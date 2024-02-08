@@ -48,7 +48,7 @@
 * In this project i'm using fast api for GUI output. You can use without GUI and get summary in terminal but you have to modify summarization.py file for this.
 * For increase length of output summary change your input corpus len should be more then 1000 (Count of words in text corpus) , if your len of input text is less then 1000 then its give you deafult output length.
 * If your corpus have len more then 1000 or == to 1000 then you can change (increase or decrease) length. for this change "num==500" in def clean function in summarization.py file.
-* Increasing the num gives you short out put decreasing the num gives you long summary output.
+* Increasing the num gives you short output decreasing the num gives you long summary output.
 * num=500 is tested and perfect for more then 1000 words of corpus.
 
 
